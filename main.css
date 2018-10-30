@@ -8,6 +8,24 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+.nav{
+    position: fixed;
+    top:0;
+    width:100%;
+    padding: 10px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin: 5px;
+    padding: o;
+    overflow: hidden;
+}
+.nav-menu-right{
+    float: right;
+    margin: 5px;
+}
+
 .main{
     display:flex;
     height: 100vh;
