@@ -1,0 +1,83 @@
+/*FONTS
+font-family: 'Inconsolata', monospace;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+body{
+    background-color:black;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main{
+    display:flex;
+    height: 100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    font-size: 32px;
+    font-family:'Inconsolata', monoespace;
+    text-align: center;
+}
+
+p {
+
+    color: #fff;
+    text-align: center;
+    font-size:24px
+}
+
+ul {
+    color: #fff;
+}
+
+fa-twitter{
+    
+    color: #fff;
+    margin: 10px;
+}
+
+fa-github{
+    
+    color: #fff;
+    margin:10px;
+}
+
+fa-dev{
+    
+    color: #fff;
+    margin:10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* MEDIA QUERY*/
+
+  
+  /* If the screen size is 600px wide or less */
+  @media screen and (max-width: 600px) {
+    p{
+        color: #fff;
+        text-align:center;
+        font-size:14px
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+  }
