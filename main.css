@@ -6,33 +6,53 @@ font-family: 'Noto Sans', sans-serif;
 body{
     margin: 0;
     background-color:black;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif
 }
 
-.nav{
-    display: wrap;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
     top:0;
     width:100%;
     color: #fff;
-    padding: 10px;
-    align-items: center;
+}
+
+.header_logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: grey;
 }
 
 .nav-menu{
+    display: flex;
+    flex-direction: row;
+    font-family: Inconsolata;
     list-style-type: none;
-    margin: 0px;
-    overflow: hidden;
-    padding: 10px;
+    margin: 5px;
     
+    /* overflow: hidden;
+    padding: 10px;    
+    */
+} 
+
+.nav-menu_item {
+    font-family:inconsolata;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
 }
 
-.nav-menu_right{
-    float: right;
-    font-family:inconsolata;
-    margin: 10px;
-    font-size: 18px;
-}
+/*
 .nav-menu_left{
     float: left;
     margin: 5px;
@@ -48,6 +68,7 @@ body{
     color: #fff;
     text-decoration: none;
 }
+*/
 .main{
     margin-top: 100px;
     display:flex;
