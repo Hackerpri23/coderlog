@@ -46,6 +46,13 @@ body{
     font-size: 36px;
 }
 
+#logo-beat{
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
 .nav{
     display:flex;
     flex-wrap:wrap;
