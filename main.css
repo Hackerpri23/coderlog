@@ -3,6 +3,13 @@ font-family: 'Inconsolata', monospace;
 font-family: 'Noto Sans', sans-serif;
 */
 
+/*COLOR PALETTE
+Black #OOOOOO;
+Dark Grey #171717;
+Yellow: #FFCD3A
+Light Yellow: #FFE8A5;
+*/
+
 body{
     margin: 0;
     background-color:black;
@@ -25,16 +32,31 @@ body{
     justify-content: center;
     margin: 10px;
 }
+
+.logo-yellow {
+    color:#FFCD3A; 
+    font-weight: bold;
+    font-family: Noto Sans;
+    font-size: 36px;
+}
+.logo-white {
+    color:#FFF; 
+    font-weight: bold;
+    font-family: Noto Sans;
+    font-size: 36px;
+}
+
 .nav{
     display:flex;
+    flex-wrap:wrap;
     flex-direction: row;
     justify-content: center;
-    background-color: grey;
+    background-color: #171717;
 }
 
 .nav-menu{
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     font-family: Inconsolata;
     list-style-type: none;
     margin: 5px;
