@@ -46,10 +46,16 @@ body{
     font-size: 36px;
 }
 
+/*TODO make animation in logo */
 #logo-beat{
-    animation-name: beat;
+    animation-name: logo-beat;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+
+@keyframes logo-beat{
+    from{color: black;}
+    to{color:#FFCD3A;}
 }
 
 
