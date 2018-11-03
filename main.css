@@ -113,6 +113,19 @@ body{
     flex-direction: column;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color:#171717;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+}
+/*ELEMENTS*/
+
 
 h1 {
     color: #fff;
@@ -158,6 +171,11 @@ img {
     height: auto;
 }
 
+#social-links {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
 
 /* MEDIA QUERY*/
 
