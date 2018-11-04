@@ -46,7 +46,7 @@ body{
     font-size: 36px;
 }
 
-/*TODO make animation in logo */
+
 #logo-beat{
     animation-name: logo-beat;
     animation-duration: 1s;
@@ -81,6 +81,7 @@ body{
 
 .nav-menu_item {
     font-family:inconsolata;
+    display:inline;
     color: #fff;
     margin: 10px;
     padding: 10px;
@@ -111,6 +112,23 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.coderlog-obj {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.coderlog-mustache {
+    font-size: 10em;
+    color: #fff;
+    /*background-color: grey;*/
+}
+
+.coderlog-keys ul {
+    color:#fff;
+    /*background-color: #333333;*/
+    list-style-type: none;
 }
 
 footer {
