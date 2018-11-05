@@ -12,8 +12,12 @@ Light Yellow: #FFE8A5;
 
 body{
     margin: 0;
-    background-color:black;
-    font-family: 'Noto Sans', sans-serif
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+}
+
+.wrapper{
+    background-color: #FFCD3A;
 }
 
 .header {
@@ -24,6 +28,7 @@ body{
     top:0;
     width:100%;
     color: #fff;
+    background-color: black;
 }
 
 .header_logo {
@@ -31,7 +36,7 @@ body{
     flex-direction: row;
     justify-content: center;
     margin: 10px;
-}
+    }
 
 .logo-yellow {
     color:#FFCD3A; 
@@ -74,7 +79,7 @@ body{
     /*flex-direction: row;*/
     font-family: Inconsolata;
     list-style-type: none;
-    margin: 5px;
+    
     
     /* overflow: hidden;
     padding: 10px;    
@@ -84,8 +89,8 @@ body{
 .nav-menu_item {
     font-family:inconsolata;
     color: #fff;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 2px;
     font-size: 24px;
 }
 
@@ -112,10 +117,12 @@ body{
     margin-top: 100px;
     display:flex;
     width:100%;
+    height: 100%
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+    background-color: white;
+    }
 
 .coderlog-obj {
     display:flex;
@@ -143,7 +150,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    min-height: 100px;
+    min-height: 60px;
 }
 /*ELEMENTS*/
 
@@ -210,6 +217,14 @@ img {
     }
 
     h1 {
+        font-size: 18px;
+    }
+
+    .nav-menu_item {
+        font-family:inconsolata;
+        color: #fff;
+        margin: 10px;
+        padding: 10px;
         font-size: 18px;
     }
 
