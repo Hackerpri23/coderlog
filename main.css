@@ -13,14 +13,10 @@ Light Yellow: #FFE8A5;
 body{
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
-    background-color: black;
+    background-color: white;
 }
 
-.wrapper{
-    background-color: #FFCD3A;
-}
-
-.header {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +47,6 @@ body{
     font-size: 36px;
 }
 
-
 #logo-beat{
     animation-name: logo-beat;
     animation-duration: 1s;
@@ -62,7 +57,6 @@ body{
     from{color: black;}
     to{color:#FFCD3A;}
 }
-
 
 .nav{
     display:flex;
@@ -76,69 +70,17 @@ body{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    /*flex-direction: row;*/
     font-family: Inconsolata;
     list-style-type: none;
-    
-    
-    /* overflow: hidden;
-    padding: 10px;    
-    */
+
 } 
 
 .nav-menu_item {
     font-family:inconsolata;
     color: #fff;
     margin: 0px;
-    padding: 2px;
+    padding: 5px;
     font-size: 24px;
-}
-
-
-
-/*
-.nav-menu_left{
-    float: left;
-    margin: 5px;
-}
-
-.nav-menu-left_logo{
-    width: 200px;
-    height: auto;
-}
-
-.social-links {
-    font-size: 12px;
-    color: #fff;
-    text-decoration: none;
-}
-*/
-.main{
-    margin-top: 100px;
-    display:flex;
-    width:100%;
-    height: 100%
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    }
-
-.coderlog-obj {
-    display:flex;
-    flex-direction:row;
-    align-items: center;
-}
-.coderlog-mustache {
-    font-size: 10em;
-    color: #fff;
-    /*background-color: grey;*/
-}
-
-.coderlog-keys ul {
-    color:#fff;
-    /*background-color: #333333;*/
-    list-style-type: none;
 }
 
 footer {
