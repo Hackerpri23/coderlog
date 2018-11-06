@@ -82,6 +82,10 @@ header {
     padding: 5px;
     font-size: 24px;
 }
+.nav-menu_item:hover a {
+    text-decoration: underline;
+    text-decoration-color: #FFCD3A;
+}
 
 footer {
     display: flex;
