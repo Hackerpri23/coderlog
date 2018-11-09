@@ -16,6 +16,15 @@ body{
     background-color: black;
 }
 
+/*WORKING */
+.web-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    background-color:yellow;
+    height: 100%;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -87,6 +96,7 @@ header {
     text-decoration: underline;
     text-decoration-color: #FFCD3A;
 }
+
 
 footer {
     display: flex;
